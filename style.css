@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+.icon-Bar{
+    width: 100%;
+    background-color: #9ec9e2;
+    overflow: auto;
+}
+.icon-Bar a{
+    float: left;
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    transition: all 0.3s;
+    color: #f7f7f7;
+    font-size: larger;
+}
+.icon-Bar a:hover{
+    background-color: lightpink;
+}
+.active{
+    background-color: navy;
+}
+.search-container{
+    float: right;
+  padding: 15px;
+  margin-top: 10px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+
+}
+input[type=text]{
+    padding: 5px;
+    border: 3px solid navy;
+}
+.search-container button{
+    padding: 5px;
+    border: 3px solid navy;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+  height: 500px;
+}
+    .left, .right {
+        width: 35%;
+      }
+
+     .left h1{
+        text-align: center;
+        font-family: "Sofia", sans-serif;
+        font-weight: bolder;
+        font-size:25px;
+     }
+     .left p{
+        font-family: 'Aguafina Script';
+        font-size: 20px;
+        font-weight: bolder;
+    }
+     .left h2{
+        font-family: 'Aladin';
+        font-size: 22px;
+     }
+     .left{
+        color:#3f081b ;
+       background-color: #d65c86;
+
+     }
+     .cone{
+        border-radius: 50%;
+        text-align: center;
+     }
+      .middle {
+        justify-content: center;
+        color: navy;
+        width: 30%;
+        background-color: #dee6de;
+      }
+      .middle h3{
+        text-align: center;
+        font-family: 'Aladin';
+        font-size: 22px;
+        font-weight: bolder;
+        padding: 10px;
+      }
+      .middle p {
+        padding: 5px;
+        font-size: 18px;
+        font-family: 'Aldrich';
+        text-align: center;
+        
+      }
+      .img2{
+        text-align: center;
+      }
+      .right{
+        background-color: #a2eea2;
+        text-align: center;
+      }
+      .right img{
+        padding: 10px;
+        border: 10px solid #1c421c;
+        border-radius: 5px;
+      }
+      .right p{
+        font-family: 'Aladin';
+        font-size: 22px;
+      }
+      ul{
+        list-style-type: square;
+        font-size: 15px;
+        font-family: 'Aldrich';
+
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      footer{
+        padding: 10px;
+        font-size:15px ;
+        text-align: center;
+        color: #f7f7f7;
+        
+        width: 100%;
+        background-color: #9ec9e2;
+      }
+      @media (max-width: 600px) {
+        .column,.icon-Bar,.search-container {
+          width: 100%;
+          height: auto;
+        }
+      }
